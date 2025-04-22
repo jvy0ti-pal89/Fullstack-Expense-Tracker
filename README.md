@@ -1,3 +1,5 @@
+HEAD
+
 <h1 align="center">🌟 My Wallet - Expense tracking app 🌟</h1>
 
 <p align="center">
@@ -49,23 +51,26 @@ spring.mail.password=YOUR_PASSWORD
 
 ### Step 3: Run the backend.
 
-- Run the backend application. It will automatically create the required tables. 
+- Run the backend application. It will automatically create the required tables.
 - Add some custom data manually in the [categories](https://github.com/DharshiBalasubramaniyam/Fullstack-Expense-Tracker/blob/7ecea71aaeca4e26a4aafd02fd602abe4d9da67d/backend/src/main/java/com/fullStack/expenseTracker/models/Category.java#L13) table for both [type](https://github.com/DharshiBalasubramaniyam/Fullstack-Expense-Tracker/blob/7ecea71aaeca4e26a4aafd02fd602abe4d9da67d/backend/src/main/java/com/fullStack/expenseTracker/models/TransactionType.java#L13) `expense` and `income`.
 - To start as admin, Insert a new user manually with role admin in [`users`](https://github.com/DharshiBalasubramaniyam/Fullstack-Expense-Tracker/blob/7ecea71aaeca4e26a4aafd02fd602abe4d9da67d/backend/src/main/java/com/fullStack/expenseTracker/models/User.java#L20) table.
 
 ### Step 4: Run the frontend
 
 1. Navigate to [frontend direcory](https://github.com/DharshiBalasubramaniyam/Fullstack-Expense-Tracker/tree/main/frontend).
+
 ```
 cd ./frontend
 ```
 
 2. Install dependencies.
+
 ```
 npm install
 ```
 
 3. Run the app.
+
 ```
 npm start
 ```
@@ -90,8 +95,6 @@ Users's stuff
 ![Screenshot 2024-04-22 154244](https://github.com/DharshiBalasubramaniyam/Fullstack-Expense-Tracker/assets/139672976/7e43cb13-6187-4af0-8900-66afef908f66)
 ![Screenshot 2024-04-22 154301](https://github.com/DharshiBalasubramaniyam/Fullstack-Expense-Tracker/assets/139672976/1b308447-f5ef-4f26-826b-0e9f42e5914f)
 
-
-
 Admin's stuff
 
 ![Screenshot 2024-04-18 092245](https://github.com/DharshiBalasubramaniyam/Fullstack-Expense-Tracker/assets/139672976/06454812-f542-4404-b9bf-e7d9b96b043d)
@@ -101,5 +104,6 @@ Admin's stuff
 ![Screenshot 2024-04-18 092805](https://github.com/DharshiBalasubramaniyam/Fullstack-Expense-Tracker/assets/139672976/aa94d2da-0080-421b-a191-d2ff9fb4472f)
 ![Screenshot 2024-04-18 092822](https://github.com/DharshiBalasubramaniyam/Fullstack-Expense-Tracker/assets/139672976/6cb49c2c-8317-4cec-ad16-b9496d97b16f)
 
+# Fullstack-Expense-Tracker
 
-
+7725df14f238b29261c04a43f1a922f4f1e7962e
